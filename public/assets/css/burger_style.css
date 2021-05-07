@@ -1,0 +1,14 @@
+body {
+    background-color: sandybrown !important;
+}
+h1 {
+    color: red !important; 
+    text-align: center;
+}
+#img {
+    max-height: 225px;
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+}
