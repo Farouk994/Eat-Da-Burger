@@ -7,6 +7,8 @@ app.use(express.static(__dirname + "/public"));
 app.use(express.urlencoded( { extended : true } ));
 app.use(express.json());
 
+require("./startup/prod")(app);
+
 const PORT = process.env.PORT || 3000;
 
 const exphbs = require("express-handlebars");
